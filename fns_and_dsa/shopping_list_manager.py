@@ -21,7 +21,7 @@ def view_list():
         for i, item in enumerate(shopping_list, start=1):
             print(f"{i}. {item}")
 
-def dispaly_manu():
+def display_menu():
     print("Shopping list manager")
     print("1. Add Item")
     print("2. Remove Item")
@@ -30,7 +30,7 @@ def dispaly_manu():
 
 def main():
     while True:
-        dispaly_manu()
+        display_menu()
         choice = input("Choose an option 1-4: ").strip()
 
         if choice == "1":
