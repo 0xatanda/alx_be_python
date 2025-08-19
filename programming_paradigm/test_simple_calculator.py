@@ -20,5 +20,5 @@ class TestSimpleCalculator(unittest.TestCase):
     def test_divide_by_zero(self):
         self.assertIsNone(self.calc.divide(10, 0))
 
-    def test_divide(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(20, 2), 10)
